@@ -95,11 +95,11 @@ button{
 @media (max-width:768px){
     main{
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 0px;
         height: auto;
     }
     div{
-        width: 60vw;
+        width: auto;
         height: auto;
     }
     .sedan{
@@ -108,4 +108,9 @@ button{
     .luxury{
         border-radius: 0px 0px 10px 10px;
     }
+
+    body{
+        background-color: black;
+    }
+
 }
